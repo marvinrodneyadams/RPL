@@ -1,0 +1,14 @@
+%%HP: T(0)A(D)F(.);
+
+@ Name: SUMAS2
+@ Input: a, d, n
+@ Output: sum of arithmetic series
+@ Version: 1.0
+@ Variable:
+@ a  first term
+@ d  difference
+@ n  number of terms
+
+«
+   a d n '(n / 2) * (2 * a + (n - 1) * d)'
+»

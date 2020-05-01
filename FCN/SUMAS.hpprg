@@ -1,14 +1,10 @@
 %%HP: T(0)A(D)F(.);
 
-@ Name: SUMAS
-@ Input: a, f, n
-@ Output: sum of arithmetic series
-@ Version: 1.0
-@ Variable:
-@ a  first term
-@ f  last term
-@ n  number of terms
+@ Module: SUMASFLN
+@ Inputs: f (first term), l (last term), n (number of terms)
+@ Output: sum of arithmetic sequence with given first term,
+@ last term, and number of terms
 
 «
-   a f n '(n / 2) * (a + f)'
+   f l n '(n / 2) * (f + l)'
 »

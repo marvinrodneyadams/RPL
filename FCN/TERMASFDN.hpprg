@@ -1,0 +1,10 @@
+%%HP: T(0)A(D)F(.);
+
+@ Module: TERMASFDN
+@ Inputs: f (first term), d (difference), n (number of terms)
+@ Output: nth term of arithmetic sequence with given first
+@ term, difference (between terms), and number of terms
+
+«
+   f d n 'f + (n - 1) * d'
+»

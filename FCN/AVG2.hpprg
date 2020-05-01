@@ -1,9 +1,8 @@
 %%HP: T(0)A(D)F(.);
 
-@ Name: AVG2
-@ Input: n1, n2
-@ Output: average of n1 and n2
-@ Version: 1.0
+@ Module: AVG2
+@ Inputs: f (first number), s (second number)
+@ Output: average of the first number and the second number
 
 «
   + 2 /

@@ -1,14 +1,10 @@
 %%HP: T(0)A(D)F(.);
 
-@ Name: SUMAS2
-@ Input: a, d, n
-@ Output: sum of arithmetic series
-@ Version: 1.0
-@ Variable:
-@ a ç first term
-@ d ç difference
-@ n ç number of terms
+@ Module: SUMASFDN
+@ Inputs: f (first term), d (difference), n (number of terms)
+@ Output: sum of arithmetic sequence with given first term,
+@ difference (between terms), and number of terms
 
 ´
-  ç a d n '(n / 2) * (2 * a + (n - 1) * d)'
+  ç f d n '(n / 2) * (2 * f + (n - 1) * d)'
 ª
